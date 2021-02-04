@@ -161,7 +161,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/poc/dev/1612379953047-2021-02-03T19:19:13.047Z/poc.zip"
+          "S3Key": "serverless/poc/dev/1612421462031-2021-02-04T06:51:02.031Z/poc.zip"
         },
         "Handler": "index.handler",
         "Runtime": "nodejs12.x",
@@ -179,14 +179,14 @@
         "PokemonFuncLogGroup"
       ]
     },
-    "PokemonFuncLambdaVersionf0KgeN3w7kjoeZ3ANl5ZZYLWXI8FeVW8EibxOdUJ4U": {
+    "PokemonFuncLambdaVersionymxqRIsiu8SdwqSkqhIvsDinCElGuyNVKj3HNrkLk": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "PokemonFuncLambdaFunction"
         },
-        "CodeSha256": "QD5rUzuw+RLxLgxVUP5ez9AbbRdAxI2s9SsBAwqUo50="
+        "CodeSha256": "tsSXUW5XfNnuWB6HQCwmH94oo2sfDRmSoSqbVgMNWoY="
       }
     },
     "ApiGatewayRestApi": {
@@ -590,7 +590,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1612379948869": {
+    "ApiGatewayDeployment1612421456693": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -656,7 +656,7 @@
     "PokemonFuncLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "PokemonFuncLambdaVersionf0KgeN3w7kjoeZ3ANl5ZZYLWXI8FeVW8EibxOdUJ4U"
+        "Ref": "PokemonFuncLambdaVersionymxqRIsiu8SdwqSkqhIvsDinCElGuyNVKj3HNrkLk"
       }
     },
     "ServiceEndpoint": {
